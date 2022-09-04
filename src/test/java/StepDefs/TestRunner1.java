@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions (
 
-plugin = {"html:target/html-SwaglabPhase_2", "json:target/json.SwaglabPhase_2"},
+plugin= {"html:target/html-cucumber", "json:target/cucumber.json"},
 
 features="src/test/java/features" ,
 
